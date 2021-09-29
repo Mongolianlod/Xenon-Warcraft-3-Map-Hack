@@ -15,7 +15,7 @@ void WINAPI HotKeys()
 			MapHack(true);
 
 			TextPrint("|CFFFCD211Xenon|R has been loaded successfully.\n"
-			          "     |CFFFF0000F5|R              : Enable / Disable Map Hack\n"
+			          "     |CFFFF0000F1|R              : Enable / Disable Map Hack\n"
 					  "     |CFFFF0000F6|R              : Toggle Fog of War\n"
 					  "     |CFFFF0000F7|R              : Enable / Disable WoodCutter\n"
 					  "     |CFFFF0000F8|R              : Enable / Disable SafeClick\n"
