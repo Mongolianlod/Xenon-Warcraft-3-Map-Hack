@@ -14,17 +14,7 @@ void WINAPI HotKeys()
 		{
 			MapHack(true);
 
-			TextPrint("|CFFFCD211Xenon|R has been loaded successfully.\n"
-			          "     |CFFFF0000F5|R              : Enable / Disable Map Hack\n"
-					  "     |CFFFF0000F6|R              : Toggle Fog of War\n"
-					  "     |CFFFF0000F7|R              : Enable / Disable WoodCutter\n"
-					  "     |CFFFF0000F8|R              : Enable / Disable SafeClick\n"
-			          "     |CFFFF0000Numpad +|R : Camera Distance Zoom In\n"
-			          "     |CFFFF0000Numpad -|R  : Camera Distance Zoom Out\n"
-			          "     |CFFFF0000Numpad *|R  : Camera Distance Set to Default\n"
-					  "     |CFFFF0000Tab|R            : Show / Hide Scoreboard (DotA)\n"
-			          "     |CFFFF0000BackSpace|R : Clear Screen", 30.0f);
-
+	
 			bIsShown = true;
 		}
 		else if (!IsInGame() && bIsShown)
